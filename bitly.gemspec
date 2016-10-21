@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<multi_json>, ["~> 1.3"])
-      s.add_runtime_dependency(%q<httparty>, [">= 0.7.6"])
+      s.add_runtime_dependency(%q<httparty>, ["~> 0.13.7"])
       s.add_runtime_dependency(%q<oauth2>, ["< 2.0", ">= 0.5.0"])
       s.add_development_dependency(%q<echoe>, [">= 0"])
       s.add_development_dependency(%q<rake>, [">= 0"])
